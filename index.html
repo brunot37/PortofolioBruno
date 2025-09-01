@@ -9,80 +9,90 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <button id="translate-btn" aria-label="Alterar idioma" title="Alterar idioma">
+    <i class="fas fa-globe"></i> <span id="translate-text">Português</span>
+  </button>
 
   <header>
     <div class="container">
       <h1>Olá, sou o Bruno Cunha!</h1>
-      <p class="subtitle">Engenheiro Informático</p>
+      <p class="subtitle">Engenheiro Informático / Desenvolvedor Web</p>
+      <div class="perfil-icons">
+        <a href="https://github.com/brunot37" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://pt.linkedin.com/in/bruno-cunha-085668375?trk=people-guest_people_search-card" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      </div>
     </div>
   </header>
 
   <main>
-    <section class="card">
+    <section class="card about-me">
       <h2 class="left-title"><i class="fas fa-user"></i> Sobre mim</h2>
-      <img src="assets/Bruno.jpg" alt="Foto de Bruno Cunha" class="about-photo">
-      <p>Licenciado em Engenharia Informática, com interesse no desenvolvimento de plataformas web e móveis. No projeto final da licenciatura, desenvolvi uma plataforma web completa com React e Django REST Framework, consolidando competências em frontend, backend e integração de serviços.
-Participei em diversos projetos académicos, adquirindo experiência prática em várias áreas da programação, trabalhando com diferentes linguagens e metodologias de desenvolvimento.
-Tenho interesse em explorar novas tecnologias e enfrentar desafios, mantendo-me sempre aberto a novas oportunidades de crescimento e desenvolvimento profissional.</p>
+      <div class="about-me-content">
+        <img src="assets/Bruno.jpg" alt="Foto de Bruno Cunha" class="about-photo">
+        <p>Licenciado em Engenharia Informática, com interesse no desenvolvimento de plataformas web e móveis. No projeto final da licenciatura, desenvolvi uma plataforma web completa com React e Django REST Framework, consolidando competências em frontend, backend e integração de serviços. Participei em diversos projetos académicos, adquirindo experiência prática em várias áreas da programação, trabalhando com diferentes linguagens e metodologias de desenvolvimento. Tenho interesse em explorar novas tecnologias e enfrentar desafios, mantendo-me sempre aberto a novas oportunidades de crescimento e desenvolvimento profissional.</p>
+      </div>
     </section>
 
-<section class="card">
-  <h2 class="left-title"><i class="fas fa-university"></i> Licenciatura</h2>
-  <div class="degree-info">
-    <p><strong>Curso:</strong> Engenharia Informática</p>
-    <p><strong>Período:</strong> 2022–2025</p>
-    <p><strong>Nota Final:</strong> 65%</p>
-       <a href="https://www.ipb.pt" target="_blank" class="degree-link">
-      <i class="fas fa-external-link-alt"></i>
-      Instituto Politécnico de Bragança
-    </a>
-  </div>
-</section>
+    <section class="card">
+      <h2 class="left-title"><i class="fas fa-university"></i> Licenciatura</h2>
+      <div class="degree-info">
+        <p><strong>Curso:</strong> Engenharia Informática</p>
+        <p><strong>Período:</strong> 2022–2025</p>
+        <p><strong>Nota Final:</strong> 65%</p>
+        <a href="https://www.ipb.pt" target="_blank" class="degree-link">
+          <i class="fas fa-external-link-alt"></i>
+          Instituto Politécnico de Bragança
+        </a>
+      </div>
+    </section>
 
-<section class="card">
+    <section class="card">
       <h2 class="left-title"><i class="fas fa-briefcase"></i> Experiência Professional</h2>
       <ul>
         <p>Embora ainda não tenha experiência profissional formal, os meus projetos proporcionaram-me uma base sólida para enfrentar desafios, aplicando boas práticas de programação e de trabalho em equipa.</p>
       </ul>
     </section>
 
-
     <section class="card">
       <h2 class="left-title"><i class="fas fa-certificate"></i> Certificados</h2>
       <ul>
-        <li><a href="https://www.netacad.com/" target="_blank">Introdução à Cibersegurança</a></li>
-          <p>Aprendi conceitos básicos de cibersegurança, aprendi a identificar e prevenir ataques, e aprendi a utilizar ferramentas de cibersegurança para proteger sistemas e dados.</p>
-        <li><a href="https://www.santanderopenacademy.com/en/courses/excel.html" target="_blank">Microsoft Office Specialist: Excel Certification</a></li>
-        <p>Aprendi conceitos básicos sobre Excel.</p>
+        <li>
+          <a href="https://www.netacad.com/" target="_blank">
+            Introdução à Cibersegurança 
+            <i class="fas fa-external-link-alt"></i>
+          </a>
+          <p>Aprofundei os meus conhecimentos em cibersegurança, aprendendo a identificar e prevenir ataques.</p>
+        </li>
+        <li>
+          <a href="https://www.santanderopenacademy.com/en/courses/excel.html" target="_blank">
+            Microsoft Office Specialist: Excel Certification 
+            <i class="fas fa-external-link-alt"></i>
+          </a>
+          <p>Adquiri conhecimentos fundamentais sobre Excel, incluindo funções básicas e formatação de dados.</p>
+        </li>
       </ul>
     </section>
 
     <section class="card">
-      <h2 class="left-title"><i class="fas fa-tools"></i> Tecnologias e Ferramentas</h2>
-      <div class="skills-group">
-        <h3>Iniciante</h3>
-        <ul>
-          <li><i class="fab fa-cuttlefish"></i> C#</li>
-          <li><i class="fab fa-python"></i> Python</li>
-        </ul>
-      </div>
-      <div class="skills-group">
-        <h3>Intermediário</h3>
-        <ul>
-          <li><i class="fab fa-git-alt"></i> Git</li>
-          <li><i class="fab fa-python"></i> Python</li>
-          <li><i class="fas fa-database"></i> SQL</li>
-          <li><i class="fab fa-js-square"></i> JavaScript</li>
-            <li><i class="fab fa-react"></i> React Native</li>
-        </ul>
-      </div>
-        <div class="skills-group">
-        <h3>Avançado</h3>
-        <ul>
-          <li><i class="fab fa-html5"></i> HTML</li>
-          <li><i class="fab fa-bootstrap"></i> Bootstrap</li>
-        
-        </ul>
+      <h2 class="left-title">
+        <i class="fas fa-laptop-code"></i> Skills and Tools
+      </h2>
+      <div class="skills-grid">
+        <div><strong>C#</strong> <span class="skill-level">Intermediate</span></div>
+        <div><strong>React</strong> <span class="skill-level">Intermediate</span></div>
+        <div><strong>C/C++</strong> <span class="skill-level">Intermediate</span></div>
+        <div><strong>Python</strong> <span class="skill-level">Intermediate</span></div>
+        <div><strong>Git</strong> <span class="skill-level">Advanced</span></div>
+        <div><strong>HTML</strong> <span class="skill-level">Advanced</span></div>
+        <div><strong>SQL</strong> <span class="skill-level">Advanced</span></div>
+        <div><strong>CSS</strong> <span class="skill-level">Advanced</span></div>
+        <div><strong>Bootstrap</strong> <span class="skill-level">Intermediate</span></div>
+        <div><strong>JavaScript</strong> <span class="skill-level">Advanced</span></div>
+        <div><strong>React Native</strong> <span class="skill-level">Intermediate</span></div>
+        <div><strong>PostgreSQL</strong> <span class="skill-level">Advanced</span></div>
+        <div><strong>Docker</strong> <span class="skill-level">Intermediate</span></div>
+        <div><strong>Node.js</strong> <span class="skill-level">Intermediate</span></div>
+        <div><strong>MySQL</strong> <span class="skill-level">Intermediate</span></div>
       </div>
     </section>
 
@@ -91,8 +101,8 @@ Tenho interesse em explorar novas tecnologias e enfrentar desafios, mantendo-me 
       <div class="social-icons">
         <a href="mailto:brunotiago022@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
         <a href="https://github.com/brunot37" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-        <a href="www.linkedin.com/in/bruno-cunha-085668375" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-        <a href="CV_BrunoCunha_English.pdf" target="_blank" title="Download CV"><i class="fas fa-file-download"></i></a>
+        <a href="https://pt.linkedin.com/in/bruno-cunha-085668375?trk=people-guest_people_search-card" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="assets/CV_BrunoCunha_English.pdf" target="_blank" title="Download CV"><i class="fas fa-file-download"></i></a>
       </div>
     </section>
   </main>
@@ -101,5 +111,6 @@ Tenho interesse em explorar novas tecnologias e enfrentar desafios, mantendo-me 
     <p>&copy; 2025 Bruno Cunha. Todos os direitos reservados.</p>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
