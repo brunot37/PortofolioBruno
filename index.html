@@ -1,32 +1,105 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="pt">
 <head>
   <meta charset="UTF-8">
-  <title>Bruno - Portfólio</title>
+  <title>Portfólio de Bruno Cunha</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <header>
-    <h1>Olá, sou o Bruno</h1>
-    <p>Desenvolvedor Web</p>
+    <div class="container">
+      <h1>Olá, sou o Bruno Cunha!</h1>
+      <p class="subtitle">Engenheiro Informático</p>
+    </div>
   </header>
 
-  <section id="sobre">
-    <h2>Sobre mim</h2>
-    <p>Sou apaixonado por tecnologia e adoro criar soluções digitais.</p>
-  </section>
+  <main>
+    <section class="card">
+      <h2 class="left-title"><i class="fas fa-user"></i> Sobre mim</h2>
+      <img src="assets/Bruno.jpg" alt="Foto de Bruno Cunha" class="about-photo">
+      <p>Licenciado em Engenharia Informática, com interesse no desenvolvimento de plataformas web e móveis. No projeto final da licenciatura, desenvolvi uma plataforma web completa com React e Django REST Framework, consolidando competências em frontend, backend e integração de serviços.
+Participei em diversos projetos académicos, adquirindo experiência prática em várias áreas da programação, trabalhando com diferentes linguagens e metodologias de desenvolvimento.
+Tenho interesse em explorar novas tecnologias e enfrentar desafios, mantendo-me sempre aberto a novas oportunidades de crescimento e desenvolvimento profissional.</p>
+    </section>
 
-  <section id="projetos">
-    <h2>Projetos</h2>
-    <ul>
-      <li>App do Tempo</li>
-      <li>Simulação Game of Life</li>
-    </ul>
-  </section>
+<section class="card">
+  <h2 class="left-title"><i class="fas fa-university"></i> Licenciatura</h2>
+  <div class="degree-info">
+    <p><strong>Curso:</strong> Engenharia Informática</p>
+    <p><strong>Período:</strong> 2022–2025</p>
+    <p><strong>Nota Final:</strong> 65%</p>
+       <a href="https://www.ipb.pt" target="_blank" class="degree-link">
+      <i class="fas fa-external-link-alt"></i>
+      Instituto Politécnico de Bragança
+    </a>
+  </div>
+</section>
+
+<section class="card">
+      <h2 class="left-title"><i class="fas fa-briefcase"></i> Experiência Professional</h2>
+      <ul>
+        <p>Embora ainda não tenha experiência profissional formal, os meus projetos proporcionaram-me uma base sólida para enfrentar desafios, aplicando boas práticas de programação e de trabalho em equipa.</p>
+      </ul>
+    </section>
+
+
+    <section class="card">
+      <h2 class="left-title"><i class="fas fa-certificate"></i> Certificados</h2>
+      <ul>
+        <li><a href="https://www.netacad.com/" target="_blank">Introdução à Cibersegurança</a></li>
+          <p>Aprendi conceitos básicos de cibersegurança, aprendi a identificar e prevenir ataques, e aprendi a utilizar ferramentas de cibersegurança para proteger sistemas e dados.</p>
+        <li><a href="https://www.santanderopenacademy.com/en/courses/excel.html" target="_blank">Microsoft Office Specialist: Excel Certification</a></li>
+        <p>Aprendi conceitos básicos sobre Excel.</p>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2 class="left-title"><i class="fas fa-tools"></i> Tecnologias e Ferramentas</h2>
+      <div class="skills-group">
+        <h3>Iniciante</h3>
+        <ul>
+          <li><i class="fab fa-cuttlefish"></i> C#</li>
+          <li><i class="fab fa-python"></i> Python</li>
+        </ul>
+      </div>
+      <div class="skills-group">
+        <h3>Intermediário</h3>
+        <ul>
+          <li><i class="fab fa-git-alt"></i> Git</li>
+          <li><i class="fab fa-python"></i> Python</li>
+          <li><i class="fas fa-database"></i> SQL</li>
+          <li><i class="fab fa-js-square"></i> JavaScript</li>
+            <li><i class="fab fa-react"></i> React Native</li>
+        </ul>
+      </div>
+        <div class="skills-group">
+        <h3>Avançado</h3>
+        <ul>
+          <li><i class="fab fa-html5"></i> HTML</li>
+          <li><i class="fab fa-bootstrap"></i> Bootstrap</li>
+        
+        </ul>
+      </div>
+    </section>
+
+    <section class="card" id="contacto">
+      <h2 class="left-title"><i class="fas fa-share-alt"></i> Contacto</h2>
+      <div class="social-icons">
+        <a href="mailto:brunotiago022@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://github.com/brunot37" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="www.linkedin.com/in/bruno-cunha-085668375" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="CV_BrunoCunha_English.pdf" target="_blank" title="Download CV"><i class="fas fa-file-download"></i></a>
+      </div>
+    </section>
+  </main>
 
   <footer>
-    <p>© 2025 Bruno Cunha</p>
+    <p>&copy; 2025 Bruno Cunha. Todos os direitos reservados.</p>
   </footer>
+
 </body>
 </html>
